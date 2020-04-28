@@ -2,10 +2,10 @@
 
 [![made-with-datalad](https://www.datalad.org/badges/made_with.svg)](https://datalad.org)
 
-This dataset enables data retrieval with DataLad (0.12.2 or later) from a **subset**
-of the [HCP Open Access dataset](https://registry.opendata.aws/hcp-openaccess/)
-for users that accepted the WU-Minn HCP Consortium Open Access Data Use Terms and
-obtained valid AWS credentials via [db.humanconnectome.org](http://db.humanconnectome.org).
+This dataset enables data retrieval for a **subset** of the [HCP Open Access
+dataset](https://registry.opendata.aws/hcp-openaccess/) for users that accepted
+the WU-Minn HCP Consortium Open Access Data Use Terms and obtained valid AWS
+credentials via [db.humanconnectome.org](http://db.humanconnectome.org).
 
 ## Structural preprocessed data subset
 
@@ -25,9 +25,10 @@ HCP Open Access dataset. Specifically, these files are
 The directory structure and the file names in this subset are kept identical to
 the full HCP dataset.
 
-The purpose of this dataset is to give easy access to a *single* dataset with
-the relevant data for voxel-based morphometry (VBM) like analyses. Compared to the
-[full HCP open access DataLad dataset](https://github.com/datalad-datasets/human-connectome-project-openaccess),
+The purpose of this dataset as to be a *single* dataset resource with all data
+relevant for, e.g. voxel-based morphometry (VBM) like analyses. Compared to the
+[full HCP open access DataLad
+dataset](https://github.com/datalad-datasets/human-connectome-project-openaccess),
 due to its reduced number of files and mono-repo structure, this dataset is
 much faster to ``clone``. If only the files included in this subset are of
 relevance to you, using this repository is a more efficient alternative to the
