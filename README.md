@@ -23,7 +23,8 @@ HCP Open Access dataset. Specifically, these files are
 ```
 
 The directory structure and the file names in this subset are kept identical to
-the full HCP dataset.
+the full HCP dataset. However, an additional BIDS-formatted view of the dataset
+is available in the `bids` branch.
 
 The purpose of this dataset as to be a *single* dataset resource with all data
 relevant for, e.g. voxel-based morphometry (VBM) like analyses. Compared to the
