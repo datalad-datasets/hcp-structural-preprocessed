@@ -10,7 +10,7 @@ for subdir in [0-9]*; do
     git mv -fk ${subdir}/T1w/T1w_acpc_dc.nii.gz ${newsub}/anat/${newsub}_desc-dc_T1w.nii.gz || true
     # sub-206828 is missing T1w_acpc_dc_restore
     git mv -fk ${subdir}/T1w/T1w_acpc_dc_restore.nii.gz ${newsub}/anat/${newsub}_desc-dcrestore_T1w.nii.gz || true
-    git mv -fk ${subdir}/T1w/T1wDividedByT2w.nii.gz ${newsub}/anat/${newsub}_T1wDividedByT2w.nii.gz || true
+    git mv -fk ${subdir}/T1w/T1wDividedByT2w.nii.gz ${newsub}/anat/${newsub}_T1wT2wratio.nii.gz || true
     # sub-204622 is missing T2w_acpc_dc
     git mv -fk ${subdir}/T1w/T2w_acpc_dc.nii.gz ${newsub}/anat/${newsub}_desc-dc_T2w.nii.gz || true
     git mv -fk ${subdir}/T1w/T2w_acpc_dc_restore.nii.gz ${newsub}/anat/${newsub}_desc-dcrestore_T2w.nii.gz || true
