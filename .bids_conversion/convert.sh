@@ -30,7 +30,7 @@ cat >> dataset_description.json << EOT
     "BIDSVersion": "1.3.0-dev (BEP003)",
     "PipelineDescription": {
         "Name": "HCP Pipelines - PreFreeSurfer",
-        "Version": "",
+        "Version": ""
         },
     "SourceDatasets": [
         {
